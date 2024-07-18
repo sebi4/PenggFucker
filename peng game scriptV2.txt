@@ -26,25 +26,25 @@ if game.PlaceId == 15836670104 then
 	     		-- Teleport to the badge position
 				 local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
 				 rootPart.CFrame = CFrame.new(826.019714, -433.14978, -0.0636148453, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-				 wait(0.5)
+				 wait(0.8)
 				 local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
 				 rootPart.CFrame = CFrame.new(1462.92236, -424.04953, -0.163620472, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-				 wait(0.5)
+				 wait(0.8)
 				 local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
                  rootPart.CFrame = CFrame.new(2112.85425, -310.849457, 1.41562653, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-				 wait(0.5)
+				 wait(0.8)
 				 local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
                  rootPart.CFrame = CFrame.new(2770.41455, -310.927032, 1.15518188, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-				 wait(0.5)
+				 wait(0.8)
 				 local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
                  rootPart.CFrame = CFrame.new(3404.21606, -302.027008, 5.80518341, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-				 wait(0.5)
+				 wait(0.8)
 				 local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
                  rootPart.CFrame = CFrame.new(3957.3147, -264.626953, 3.45547628, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-				 wait(0.5)
+				 wait(0.8)
 				 local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
                  rootPart.CFrame = CFrame.new(4106.11523, -260.626953, 2.65547562, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-				 wait(0.5)
+				 wait(0.8)
 	end)
     
 	local PlayerTab = Window:NewTab("Player")
