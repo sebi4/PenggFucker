@@ -1,0 +1,40 @@
+if game.PlaceId == 15836670104 then
+	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+	local Window = Library.CreateLib("Pengg Game Fucker", "BloodTheme")
+	
+	local MainTab = Window:NewTab("Main")
+	local MainSection = MainTab:NewSection("Main")
+	
+	MainSection:NewButton("TP All", "1-62 checkpoints tp", function()
+		for i = 1, 1000 do
+			local checkpoint = workspace.Checkpoints:FindFirstChild(tostring(i))
+			if checkpoint then
+				-- Teleport to the checkpoint's position
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = checkpoint.CFrame
+				-- Wait a short moment to ensure the teleport is registered
+				wait(0.1)
+			end
+		end
+	end)
+	
+	local PlayerTab = Window:NewTab("Player")
+	local PlayerSection = PlayerTab:NewSection("Main")
+	
+	PlayerSection:NewSlider("Walkspeed", "fast as fuck boy", 500, 0, function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end)
+	
+	PlayerSection:NewSlider("JumpPower", "high as fuck boy", 500, 0, function(s)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+	end)
+	
+	--other nigga
+	local DestroyTab = Window:NewTab("Destroy")
+	local DestroySection = DestroyTab:NewSection("Main")
+	
+	DestroySection:NewButton("Destroy Practice Area", "visual", function()
+		game.Workspace.PracticeArea:Destroy()
+	end)
+
+	
+	end
